@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Fitness Tracker</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="placeapp">Place App</a>
+      <a class="nav-item nav-link" routerLink="viewapp">View App</a>
+      <a class="nav-item nav-link" routerLink="search">Search</a>
+      <a class="nav-item nav-link" routerLink="contactus">Contact us</a>
+    </div>
+  </div>
+</nav>
+
+<div class="center">
+<div class="card" style="width: 25rem; height: 26rem;">
+  <img class="card-img-top" src="assets/img/fitness.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Sometimes, no matter how important your goals are to you, it's a struggle to bring your best effort to your gym session (or work up the motivation to make it happen at all). Work Hard and achieve the goals</p>
+  </div>
+</div>
+</div>
+
+<div class="center" style= "padding-top: 2px; width:25rem; margin-left: 400px;">
+  <button type="button" class="btn btn-secondary btn-lg btn-block">Apply for Trainers</button>
+</div>
+
+<router-outlet></router-outlet>
